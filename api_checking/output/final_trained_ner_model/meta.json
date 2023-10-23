@@ -1,0 +1,59 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.6.1,<3.7.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"458bc5f45",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "ner":[
+      " MARITAL STATUS",
+      "ACHIEVEMENTS",
+      "COMPANY NAME",
+      "CONTACT ADDRESS",
+      "COUNTRY",
+      "DEGREE",
+      "DESIGNATION",
+      "DISTRICT",
+      "DOB",
+      "EMAIL",
+      "EMPLOYMENT END DATE",
+      "EMPLOYMENT START DATE",
+      "GENDER",
+      "INSTITUTION NAME",
+      "JOB DESCRIPTION",
+      "JOB TITLE",
+      "MARITAL STATUS",
+      "MOBILE NUMBER",
+      "NAME",
+      "PASSED OUT YEAR",
+      "PERCENTAGE ACQUIRED",
+      "PRIMARY SKILL",
+      "RESPONSIBILITIES",
+      "SECONDARY SKILLS",
+      "SPECIALIZATION",
+      "STATE",
+      "ZIPCODE"
+    ]
+  },
+  "pipeline":[
+    "ner"
+  ],
+  "components":[
+    "ner"
+  ],
+  "disabled":[
+
+  ]
+}
